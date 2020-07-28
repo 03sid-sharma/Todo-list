@@ -37,7 +37,6 @@ function addItem(){
         li.appendChild(label);
         ul.insertBefore(li,ul.childNodes[0]);
         li.className="visual";
-        localStorage.setItem(ul,item);
 
 
     }
@@ -51,3 +50,4 @@ function removeItem(){
         }
         
     }
+}
